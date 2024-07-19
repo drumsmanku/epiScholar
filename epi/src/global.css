@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --heading-4-bold: Sarabun;
+
+  /* font sizes */
+  --heading-4-bold-size: 36px;
+  --small-regular-size: 12px;
+  --base-bold-size: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+  --default-colors-black: #3a3a3a;
+  --dark-blue: #02347d;
+
+  /* Gaps */
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-13xl: 32px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-981xl: 1000px;
+}
