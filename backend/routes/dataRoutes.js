@@ -3,6 +3,9 @@ const express = require('express');
 const { getData } = require('../controllers/dataController');
 const router = express.Router();
 
+router.get('/', (req, res)=>{
+    res.send({message:"success"})
+})
 router.get('/globe-data', getData);
 
 module.exports = router;

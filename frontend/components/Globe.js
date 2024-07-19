@@ -10,7 +10,7 @@ const Globe = () => {
     useEffect(() => {
         const fetchData = async () => {
             const result = await axios.get('https://epischolar.onrender.com/api/globe-data');
-            const responseData = result.data[0]; // Accessing the first element in the array
+            const responseData = result?.data[0]; // Accessing the first element in the array
             const formattedData = Object.keys(responseData).map((key, index) => ({
                 title: key,
                 description: responseData[key],
