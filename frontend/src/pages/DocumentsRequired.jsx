@@ -8,7 +8,7 @@ const DocumentsRequired = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get( 'http://localhost:3001/api/globe-data');
+        const response = await axios.get( 'https://epischolar.onrender.com/api/globe-data');
         setData(response.data[0]);
         console.log(response.data);
 
